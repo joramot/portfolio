@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#mobile-design {
+  width: 375px;
+  height: 6968px;
+}
+
+.app-bar {
+  width: 375px;
+  height: 92px;
+  background: #3c3a39;
+}
+
+.status-bar {
+  width: 375px;
+  height: 44px;
+}
+
+.tools-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 375px;
+  height: 48px;
+}
+
+.name-logo {
+  margin-left: 24px;
+  margin-bottom: 12px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  align-self: center;
+}
+
+.menu-icon {
+  margin-right: 35px;
+  margin-bottom: 18px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 375px;
+  height: 590px;
+  background: #1c1a19;
+  background-image: url(/images/background-headline.png);
+  background-repeat: no-repeat;
+  background-position: 100% 115%;
+}
+
+.presentation-title {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin: 120px 24px 0 20px;
+}
+
+.what-i-do {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+  margin: 12px 24px 0 20px;
+}
+
+.support-text {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin: 12px 24px 0 20px;
+}
+
+.social-icons {
+  margin-left: 24px;
+  margin-top: 12px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  margin: 10px;
+  list-style-type: none;
+}
