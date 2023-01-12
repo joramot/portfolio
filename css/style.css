@@ -201,6 +201,16 @@ li {
   border: 1px solid #8993a4;
 }
 
+.tags-container .tag-title a {
+  color: #091e42;
+  text-decoration: none;
+}
+
+.tag-cards-work-container .tag-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .button-see-project {
   margin-left: 24px;
   padding: 12px;
