@@ -446,3 +446,14 @@ li {
   height: 20px;
   align-self: center;
 }
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-2:hover {
+  width: 48%;
+  background-color: #fff;
+  color: #ff6b00;
+  font-size: 18px;
+}
