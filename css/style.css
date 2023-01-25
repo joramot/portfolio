@@ -312,8 +312,6 @@ li {
 .about-section-container {
   display: flex;
   flex-direction: column;
-  width: 375px;
-  height: 1901px;
   background-color: #1c1a19;
   background-image: url("../images/illustration-about-me.png");
   background-repeat: no-repeat;
@@ -522,6 +520,7 @@ textarea {
   border: 0;
   font-family: Inter, sans-serif;
   background: #fbf8f7;
+  resize: none;
 }
 
 .separator-line {
