@@ -8,42 +8,33 @@
   height: 6968px;
 }
 
-.app-bar {
-  width: 375px;
-  height: 92px;
-  background: #3c3a39;
-}
-
-.status-bar {
-  width: 375px;
-  height: 44px;
-}
-
-.tools-bar {
+.navbar {
+  height: 70px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  color: white;
-  width: 375px;
-  height: 48px;
+  background-color: #3C3A39;
 }
 
 .name-logo {
-  margin-left: 24px;
-  margin-bottom: 12px;
+  width: 200px;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   color: #fff;
+  margin-left: 10%;
+}
+
+.navlinks {
+  width: 0;
+  display: none;
 }
 
 .menu-icon {
-  width: 30%;
-  margin-right: 35px;
-  margin-bottom: 12px;
+  width: 23px;
+  margin-right: 8%;
 }
 
 .headline {
@@ -559,4 +550,8 @@ textarea {
   background-color: #fff;
   color: #ff6b00;
   font-size: 18px;
+}
+
+#mobile-design {
+  margin: auto;
 }

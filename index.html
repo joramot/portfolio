@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
@@ -17,17 +18,19 @@
 
 <body>
   <section id="mobile-design">
+
     <header class="app-bar">
-      <div class="status-bar"></div>
-      <div class="tools-bar">
-        <a href="#">
-          <h1 class="name-logo">Jose RMT</h1>
-        </a>
-        <nav>
+        <nav class="navbar">
+          <a href="#"><h1 class="name-logo">Jose RMT</h1></a>
+          <ul class="navlinks">
+            <li class="links"><a href="#portfolio">Portfolio</a></li>
+            <li class="links"><a href="#about">About</a></li>
+            <li class="links"><a href="#contact">Contact</a></li>
+          </ul>
           <img class="menu-icon" src="./images/menu-icon.png" alt="menu-icon">
         </nav>
-      </div>
     </header>
+
     <section class="headline">
       <h1 class="presentation-title">Hey There.
         I’m Jose RM</h1>
@@ -227,7 +230,7 @@
       </ul>
       <img class="home-indicator" src="./images/home-indicator.png" alt="">
     </footer>
-
+  </section>
 </body>
 
 </html>
