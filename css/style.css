@@ -8,6 +8,7 @@ body {
 }
 
 #mobile-design {
+  margin: auto;
   width: 375px;
   height: 6968px;
 }
@@ -17,7 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
 }
 
 .name-logo {
@@ -444,7 +445,7 @@ li {
   height: 884px;
   display: flex;
   flex-direction: column;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 
 .support-text-form-section {
@@ -503,7 +504,6 @@ input[type="submit"] {
   background: #fbf8f7;
 }
 
-
 .separator-line {
   margin-top: 14px;
   width: 327px;
@@ -539,8 +539,4 @@ input[type="submit"] {
   background-color: #fff;
   color: #ff6b00;
   font-size: 18px;
-}
-
-#mobile-design {
-  margin: auto;
 }
