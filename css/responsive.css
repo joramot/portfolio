@@ -2,6 +2,7 @@
   #mobile-design {
     width: 100%;
   }
+
   .app-bar {
     position: absolute;
     display: flex;
@@ -12,7 +13,7 @@
     top: 0px;
     background: #3E3C3C;
   }
-  
+
   .name-logo {
     width: 110px;
     text-align: center;
@@ -40,390 +41,492 @@
   .links {
     margin-right: 25px;
   }
-  
+
   .menu-icon {
     display: none;
     width: 0;
     margin-right: 0;
     margin-bottom: 0;
   }
-  
+
   .navbar {
     display: flex;
   }
 
-  .headline {
+
+  /* *BEGIN HeadLine Section* */
+
+  .head {
+    width: 100%;
+    height: 870px;
     display: flex;
-    flex-direction: column;
-    width: 375px;
-    height: 590px;
-    background: #1c1a19;
-    background-image: url("../images/background-headline.png");
+    flex-direction: row;
+    color: #fff;
+    background-color: #000;
+    background-image: url("../images/Illustration-header.png");
     background-repeat: no-repeat;
     background-position: 100% 115%;
   }
-  
-  .presentation-title {
-    font-family: "Crete Round", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 64px;
-    letter-spacing: 0.37px;
-    color: #ff6b00;
-    margin: 120px 24px 0 20px;
-  }
-  
-  .what-i-do {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    color: #fff5e1;
-    margin: 12px 24px 0 20px;
-  }
-  
-  .support-text {
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #fff;
-    margin: 12px 24px 0 20px;
-  }
-  
-  .social-icons {
-    margin-left: 24px;
-    margin-top: 12px;
-    width: 200px;
-    height: 40px;
+
+  .head-line {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .head-line h1 {
+    margin: 12rem 0 0 0;
+    font-family: 'crete round', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 400;
+    color: #f55800;
+  }
+
+  .head-line h2 {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .head-line p {
+    margin: 0 0 15.68rem 0;
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  .lateral-bar {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: -1;
+  }
+
+  .lateral-bar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     align-items: center;
   }
-  
-  img {
-    margin: 0;
-    padding: 0;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  li {
-    margin: 10px 10px 10px 0;
-    list-style-type: none;
-  }
-  
-  .works-section-container {
-    display: flex;
-    flex-direction: column;
-    width: 375px;
-    height: 3455px;
-  }
-  
-  .works-title {
-    width: 327px;
-    margin-top: 120px;
-    margin-left: 24px;
-    padding: 31px 0 31px 0;
-    font-family: "Crete Round", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-  }
-  
-  .vector-works {
-    margin-top: 24px;
-    margin-left: 24px;
-    margin-bottom: 80px;
-    width: 327px;
-    height: 2px;
-    border-width: 0;
-    color: gray;
-    background-color: gray;
-  }
-  
-  .works-info-section {
-    width: 375px;
-    height: 3028px;
-  }
-  
+
+  /* *END HeadLine Section */
+
+  /* *BEGIN Recent Works Section* */
   .multi-post-stories {
-    width: 375px;
-    height: 568px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .stories-image {
-    width: 327px;
-    height: 237px;
-    margin-top: 0;
-    margin-left: 24px;
-  }
-  
-  .multi-post-title {
-    margin-left: 24px;
-    margin-top: 24px;
-    font-family: "Crete Round", sans-serif;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 44px;
-    text-align: left;
-  }
-  
-  .support-text-multi-post {
-    margin: 12px 24px 0 24px;
-    justify-self: left;
-    font-family: Inter, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-  }
-  
-  .tags-container {
-    margin-left: 24px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-items: left;
   }
-  
-  .tags-container .tag-title {
-    padding: 10px 12px 10px 12px;
-    color: #091e42;
-    text-decoration: none;
-    border: 1px solid #8993a4;
-    height: 20px;
-    font-family: Inter, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-  }
-  
-  .tags-container .tag-title a {
-    color: #091e42;
-    text-decoration: none;
-  }
-  
-  .tag-cards-work-container .tag-title a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .button-see-project {
-    margin-left: 24px;
-    padding: 12px;
-    width: 135px;
-    height: 48px;
-    font-family: Inter, sans-serif;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.08em;
-    text-align: center;
-    background: #ff6b00;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .works-area-cards {
-    margin-top: 24px;
-    width: 375px;
-    height: 2436px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
-  
-  .cards-work-container {
-    width: 327px;
-    height: 386px;
-    margin-left: 24px;
-    margin-top: 24px;
+
+  .works {
     display: flex;
     flex-direction: column;
-    background-image: url("../images/cards-work-image.png");
+    gap: 1rem;
+    width: 100%;
   }
-  
-  .cards-work-title {
-    margin-top: 84px;
-    margin-left: 24px;
-    height: 81px;
-    width: 295px;
-    font-family: "Crete Round", sans-serif;
-    font-size: 32px;
+
+  .header-works {
+    margin-top: 8.43rem;
+  }
+
+  .works h3 {
+    width: 20rem;
+    margin: 8.5rem 0 0 9.6rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Crete Round', sans-serif;
+  }
+
+  .multi-post {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-left: 141px;
+
+  }
+
+  .multi-post img {
+    width: 684px;
+    height: 448px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    gap: 1rem;
+  }
+
+  .info h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'crete round', sans-serif;
+  }
+
+  .info p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+  }
+
+  .tech {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    align-items: center;
+    width: auto;
+    list-style: none;
+    color: #091e42;
+  }
+
+  .tech p {
+    margin: 0;
+    font-size: 0.93rem;
+    border: 1px solid #8993a4;
+    text-align: center;
+  }
+
+  .card-1 p {
+    margin: 24.55rem 0 0 0;
+    padding: 12px;
+    height: 48px;
+    color: #fff;
+    background-color: #f55800;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+  }
+
+  .info-card-2 p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+    color: #fff;
+  }
+
+  .info-card-3 p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+    color: #fff;
+  }
+
+  .info-card-4 p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+    color: #fff;
+  }
+
+  .header-about p {
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    color: #fff;
+  }
+
+  .contact-container-rwd p {
+    font-family: Inter, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    color: #262626;
+  }
+
+  .info p:last-child {
+    width: 7.75rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.75rem;
+    background-color: #f55800;
+    color: #fff;
+  }
+
+  /* --------- BEGIN WORKS GRID ---------- */
+
+  .cards-box {
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .card-1 {
+    height: 435px;
+    width: 369px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/1-img-paceholder.png);
+    background-repeat: no-repeat;
+  }
+
+  .card-2 {
+    height: 435px;
+    width: 369px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/2-img-placeholder.png);
+    background-repeat: no-repeat;
+  }
+
+  .info-card-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10.6rem;
+    margin-left: 1rem;
+    gap: 1.5rem;
+  }
+
+  .info-card-2 h3 {
+    margin: 0;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 44px;
     text-align: left;
     color: #fff;
   }
-  
-  .support-text-cards-work {
-    margin-top: 12px;
-    margin-left: 24px;
-    height: 87px;
-    width: 295px;
-    font-family: Inter, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: #fff;
-  }
-  
-  .tag-cards-work-container {
-    width: 236px;
-    height: 40px;
-    margin-left: 24px;
-    margin-top: 12px;
-    margin-bottom: 22px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
-  .tag-cards-work-container .tag-title {
-    margin: 0 12px 0 0;
-    padding: 10px 12px 10px 12px;
-    font-family: Inter, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: center;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.24);
-  }
-  
-  .button-cards-work {
-    padding: 12px 113.5px 12px 113.5px;
-    font-family: Inter, sans-serif;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    text-align: center;
-    background-color: #ff6b00;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .about-section-container {
+
+  .card-3 {
+    height: 435px;
+    width: 369px;
     display: flex;
     flex-direction: column;
-    width: 375px;
-    height: 1901px;
-    background-color: #1c1a19;
-    background-image: url("../images/illustration-about-me.png");
+    background-image: url(../images/3-img-placeholder.png);
     background-repeat: no-repeat;
-    background-position: 100% 22%;
   }
-  
-  .about-me-title {
-    margin-top: 120px;
-    margin-left: 24px;
-    font-family: "Crete Round", sans-serif;
-    font-size: 72px;
+
+  .info-card-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 13.3rem;
+    margin-left: 1rem;
+    gap: 1.6rem;
+  }
+
+  .info-card-3 h3 {
+    margin: 0;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 88px;
-    letter-spacing: 0.3700000047683716px;
+    line-height: 44px;
     text-align: left;
-    color: #ff6b00;
-  }
-  
-  .support-text-about-me {
-    margin: 24px 24px 0 24px;
-    font-family: Inter, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: #f4f5f7;
-  }
-  
-  .button-about-me {
-    width: 45%;
-    margin-top: 24px;
-    margin-left: 24px;
-    padding: 12px;
-    font-family: Inter, sans-serif;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.08em;
-    text-align: left;
-    background: #ff6b00;
     color: #fff;
-    border: none;
   }
-  
-  .vector-about-me {
-    margin-left: 24px;
-    margin-top: 209px;
-    width: 327px;
-    border: 1px solid #fff;
-    background-color: #fff;
-    cursor: pointer;
+
+  .card-4 {
+    height: 435px;
+    width: 369px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/4-img-placeholder.png);
+    background-repeat: no-repeat;
   }
-  
+
+  .info-card-4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10.6rem;
+    margin-left: 1rem;
+    gap: 1.5rem;
+  }
+
+  .info-card-4 h3 {
+    margin: 0;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .technologys {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    column-gap: 1rem;
+    color: #fff;
+  }
+
+  .p_technologys {
+    font-size: 1rem;
+    font-family: Inter, sans-serif;
+    padding: 0.16rem 1rem;
+    border: 1px solid #8993a4;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  /* ------- END Works Grid ---------- */
+
+
+
+  /* *BEGIN About Me Section* */
+
+  .about-me-container {
+    width: 100%;
+    height: 1195px;
+    display: flex;
+    flex-direction: column;
+    background: #262626;
+    background-image: url(../images/illustration-about-me_2.png);
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    margin-top: 8.12rem;
+  }
+
   .skill-about-me-container {
-    margin-left: 23px;
-    margin-right: 23px;
+    height: 596px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
     color: #fff;
   }
-  
-  .language-skill {
-    margin-top: 128px;
+
+  .support-text-about-me {
+    width: 40%;
+    margin: 24px 24px 0 24px;
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    color: #f4f5f7;
+  }
+
+  .about {
+    margin-block: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about hr {
+    display: inline;
+    width: 80%;
+    align-self: center;
+    height: 2px;
+    border-width: 0;
+    color: #fff;
+    background-color: #fff;
+  }
+
+  .header-about {
+    height: 582px;
+    margin-left: 142px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .header-about h2 {
+    font-family: 'Crete Round', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 5.18rem;
+    text-align: left;
+    color: #f55800;
+  }
+
+  .header-about button {
+    padding: 12px;
+    width: 180px;
+    height: 48px;
+    color: #fff;
+    background-color: #f55800;
+  }
+
+  .vector-about-me {
+    margin-left: 24px;
+    margin-top: 9px;
+    width: 327px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .about-tech-skills {
+    margin-left: 142px;
+    margin-top: 142px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+  }
+
+  .skill-language {
+    margin: 0 176px 0 0;
     width: 225px;
     height: 281px;
     display: flex;
     flex-direction: column;
     gap: 24px;
   }
-  
-  .frameworks-skill {
-    margin-top: 32px;
+
+  .skill-frameworks {
+    margin: 0 176px 0 0;
     height: 336px;
     width: 281px;
     display: flex;
     flex-direction: column;
     gap: 24px;
   }
-  
-  .skills-list {
-    margin-top: 32px;
+
+  .list-skills {
+    margin: 0;
     height: 336px;
     width: 281px;
     display: flex;
     flex-direction: column;
     gap: 24px;
   }
-  
-  .tags-skills {
-    font-family: Inter, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 43px;
-    text-align: center;
-  }
-  
-  .card-skills-title {
+
+  .title-card-skills {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
   }
-  
+
+  .card-skills-title .icons-skills-rectangle {
+    width: 26px;
+    height: 26px;
+    align-self: center;
+  }
+
+  .card-skills-title .icons-skills-square {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin-right: 18px;
+  }
+
+  .card-skills-title .icons-skills-circle {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+  }
+
   .lang-title {
     margin-left: 12px;
     font-family: Inter, sans-serif;
@@ -432,47 +535,34 @@
     line-height: 44px;
     align-self: center;
     text-align: center;
+    color: #fff;
   }
-  
-  .card-skills-title .icons-skills-rectangle {
-    width: 26px;
-    height: 26px;
-    align-self: center;
-  }
-  
-  .card-skills-title .icons-skills-square {
-    width: 20px;
-    height: 20px;
-    align-self: center;
-    margin-right: 18px;
-  }
-  
-  .card-skills-title .icons-skills-circle {
-    width: 20px;
-    height: 20px;
-    align-self: center;
-  }
-  
-  .contact-form-container {
-    width: 375px;
-    height: 884px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .support-text-form-section {
-    margin-top: 120px;
-    margin-left: 24px;
-    margin-right: 24px;
+
+  .tags-skills {
     font-family: Inter, sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44px;
-    text-align: center;
-    color: #172b4d;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color: #fff;
+    list-style: none;
   }
-  
-  .contact_form {
+
+  /* *END ABOUT ME SECTION */
+
+  /* *BEGIN Contact Form Section* */
+
+  .contact-container-rwd {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    color: #262626;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .contact-form {
     margin-top: 58px;
     margin-left: 24px;
     margin-bottom: 206px;
@@ -485,81 +575,78 @@
     line-height: 24px;
     text-align: left;
   }
-  
+
   input {
     width: 295px;
     height: 18px;
     border: 0;
     margin-left: 16px;
   }
-  
-  .line-div-footer {
-    width: 375px;
-    height: 1px;
-    background-color: #dfe1e6;
-    border: none;
-  }
-  
-  input[type="email"] {
+
+  input[type='email'] {
     margin-top: 39px;
   }
-  
-  input[type="submit"] {
-    width: 40%;
-    height: 18%;
+
+  input[type='submit'] {
+    width: 122px;
+    height: 48px;
     margin-top: 24px;
-    margin-left: 98px;
-    background-color: #ff6b00;
+    background-color: #f55800;
     color: #fff;
-    font-family: Inter, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 17px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: center;
-    padding: 12px;
   }
-  
+
   textarea {
-    width: 327px;
-    height: 115px;
     margin-top: 24px;
     padding: 12px;
     border: 0;
     font-family: Inter, sans-serif;
     background: #fbf8f7;
   }
-  
+
   .separator-line {
     margin-top: 14px;
-    width: 327px;
+    width: 684px;
     height: 1px;
     background: #dbd8d7;
     border: 0;
   }
-  
-  .social-media-box {
-    margin-top: 15px;
+
+  /* *END CONTACT FORM SECTION* */
+
+  /* *BEGIN Footer Section */
+
+  .footer hr {
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
   }
-  
-  .bottom-nav {
-    margin-top: 31px;
+
+  .media-links {
+    margin: 1rem 0 1rem 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    gap: 1.5rem;
   }
-  
+
   .home-indicator {
-    margin-top: 13px;
-    margin-bottom: 8px;
+    display: none;
   }
-  
-  .button:hover {
-    box-shadow:
-      0 12px 16px 0 rgba(0, 0, 0, 0.24),
-      0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  }
-  
+
+  /* *END FOOTER SECTION* */
+
+  /* *Efects and actions* */
+
   .button-2:hover {
     width: 48%;
     background-color: #fff;
@@ -567,102 +654,22 @@
     font-size: 18px;
   }
 
-  /* *BEGIN Contact Form Section* */
+  .button_form:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #f55800;
+  }
 
-.contact-container-rwd {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  background-color: #fff;
-  color: #262626;
-  justify-items: center;
-  justify-content: center;
-}
+  .button:hover {
+    cursor: pointer;
+    box-shadow:
+      0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
 
-.contact-form {
-  margin: 8.125rem 0 9.625rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-family: Inter, sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  align-self: center;
-}
-
-.contact_form textarea {
-  resize: none;
-}
-
-input {
-  width: 295px;
-  height: 18px;
-  border: 0;
-  margin-left: 16px;
-}
-
-input[type='email'] {
-  margin-top: 39px
-  ;
-}
-
-input[type='submit'] {
-  width: 122px;
-  height: 48px;
-  margin-top: 24px;
-  background-color: #f55800;
-  color: #fff;
-  font-family: Roboto, sans-serif;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
-textarea {
-  margin-top: 24px;
-  padding: 12px;
-  border: 0;
-  font-family: Inter, sans-serif;
-  background: #fbf8f7;
-}
-
-.separator-line {
-  margin-top: 14px;
-  width: 684px;
-  height: 1px;
-  background: #dbd8d7;
-  border: 0;
-}
-
-/* *END CONTACT FORM SECTION* */
-
-  /* *BEGIN Footer Section */
-
-.footer hr {
-  display: block;
-  width: 100%;
-  height: 2px;
-  border-width: 0;
-  color: gray;
-  background-color: gray;
-}
-
-.media-links {
-  margin: 1rem 0 1rem 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.home-indicator {
-  display: none;
-}
-
-/* *END FOOTER SECTION* */
+  .personal-logo {
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
+  }
 }
